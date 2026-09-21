@@ -2,7 +2,7 @@ body{
     background-color: #000000; 
     color: #FFFFFF;
     font-family: Arial, Verdana;
-    margin: 20px 0px 20px 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 h1{
@@ -47,7 +47,7 @@ div{
     line-height: 2;
 }
 
-.red{
+.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -55,39 +55,40 @@ div{
     border-left: 5px solid;
 }
 
-.blue{
-    background-color:#0000FF;
+.blue {
+    background-color: #0000FF;
     text-align: left;
-    color: #C4C4C4;
     margin-right: 50px;
     border-top: 2px solid;    
     border-right: 5px solid;
 }
-.blue h1 {
+.blue h2, .blue p {
     color: #C4C4C4;
 }
 
-.yellow{
+.yellow {
     background-color: #FFFF00;
     text-align: right;
-    color: #707070;
     margin-left: 50px;
-    border-bottom: 2px solid;    
+    border-bottom: 2px solid;   
     border-left: 5px solid;
 }
+.yellow p { 
+    color: #707070; 
+}
 
-.green{
+
+.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-top: 2px solid;    
-    border-right: 5px solid; 
+    border-right: 5px solid;
 }
 
 footer {
     background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
-    border-color: #FFFFFF;
-    border-width: 5px solid;
+    border: 5px solid #FFFFFF;
 }
 footer p {
     font-size: 20px;
